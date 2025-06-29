@@ -18,7 +18,8 @@ app.use(cors())
 // import { MongoClient } from 'mongodb'
 
 // Connection URL
-const url = 'mongodb://localhost:27017';
+// const url = 'mongodb://localhost:27017';
+const url="MONGO_URI=mongodb+srv://amar:yourPassword@cluster0.mongodb.net/coffee_app?retryWrites=true&w=majority"
 const client = new MongoClient(url);
 
 // Database Name
